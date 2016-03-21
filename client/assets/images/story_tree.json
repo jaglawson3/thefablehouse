@@ -2,38 +2,48 @@
   "0": {
     "name": "Introduction",
     "svg": "svg1",
+    "currentLocation": "chapter1",
     "0": {
       "name": "Big or small?",
       "svg": "svg2",
+      "currentLocation": "chapter2",
       "0": {
         "name": "Big thing",
         "svg": "svg3",
+        "currentLocation": "chapter2A",
         "0": {
           "name": "Friend or foe?",
           "svg": "svg4",
+          "currentLocation": "chapter3A",
           "0": {
             "name": "Big Foe",
-            "svg": "svg5"
+            "svg": "svg5",
+            "currentLocation": "chapter3AA",
           },
           "1": {
             "name": "Big Friend",
-            "svg": "svg6"
+            "svg": "svg6",
+            "currentLocation": "chapter3AB",
           }
         }
       },
       "1": {
         "name": "Small thing",
         "svg": "svg7",
+        "currentLocation": "chapter2B",
         "0": {
           "name": "Friend or foe?",
           "svg": "svg8",
+          "currentLocation": "chapter3B",
           "0": {
             "name": "Small Foe",
-            "svg": "svg9"
+            "svg": "svg9",
+            "currentLocation": "chapter3BA",
           },
           "1": {
             "name": "Small Friend",
-            "svg": "svg10"
+            "svg": "svg10",
+            "currentLocation": "chapter3BB"
           }
         }
       }

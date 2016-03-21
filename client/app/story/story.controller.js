@@ -13,8 +13,6 @@
     }
   }
 
-
-
   angular.module('theFableHouseApp')
     .component('story', {
       templateUrl: 'app/story/story.html',
