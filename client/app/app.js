@@ -19,7 +19,7 @@ angular.module('theFableHouseApp', [
 
     $stateProvider
     .state('index', {
-      url: "",
+      url: "/",
       views: {
         "viewA": { template: "index.viewA" },
         "viewB": { template: "index.viewB" }
