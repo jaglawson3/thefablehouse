@@ -8,5 +8,5 @@ dist
 npm-debug.log
 client/assets/images/
 coverage
-.png
-.svg
+svg
+png
