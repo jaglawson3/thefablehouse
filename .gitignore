@@ -6,7 +6,7 @@ client/bower_components
 dist
 /server/config/local.env.js
 npm-debug.log
-client/app/assets/images
+client/assets/images
 coverage
 .png
 .svg
