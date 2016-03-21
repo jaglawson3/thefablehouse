@@ -1,0 +1,42 @@
+var story = {
+  "0": {
+    "name": "Introduction",
+    "svg": "svg1",
+    "0": {
+      "name": "Big or small?",
+      "svg": "svg2",
+      "0": {
+        "name": "Big thing",
+        "svg": "svg3",
+        "0": {
+          "name": "Friend or foe?",
+          "svg": "svg4",
+          "0": {
+            "name": "Big Foe",
+            "svg": "svg5"
+          },
+          "1": {
+            "name": "Big Friend",
+            "svg": "svg6"
+          }
+        }
+      },
+      "1": {
+        "name": "Small thing",
+        "svg": "svg7",
+        "0": {
+          "name": "Friend or foe?",
+          "svg": "svg8",
+          "0": {
+            "name": "Small Foe",
+            "svg": "svg9"
+          },
+          "1": {
+            "name": "Small Friend",
+            "svg": "svg10"
+          }
+        }
+      }
+    }
+  }
+}
