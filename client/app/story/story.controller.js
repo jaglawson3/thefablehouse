@@ -6,8 +6,9 @@
       this.$http = $http;
       this.$scope = $scope;
       this.$scope.message = 'Hello';
-      this.$http.get('/app/assets/json/story_tree.json').then(response => {
-        this.storyPath = response.data;
+      this.$http.get('assets/images/story_tree.json').then(response => {
+        console.log(response)
+        this.$scope.storyPath = response.data;
       });
     }
   }
