@@ -18,12 +18,12 @@
           "0": {
             "name": "Big Foe",
             "svg": "svg5",
-            "currentLocation": "chapter3AA",
+            "currentLocation": "chapter3AA"
           },
           "1": {
             "name": "Big Friend",
             "svg": "svg6",
-            "currentLocation": "chapter3AB",
+            "currentLocation": "chapter3AB"
           }
         }
       },
@@ -38,7 +38,7 @@
           "0": {
             "name": "Small Foe",
             "svg": "svg9",
-            "currentLocation": "chapter3BA",
+            "currentLocation": "chapter3BA" 
           },
           "1": {
             "name": "Small Friend",

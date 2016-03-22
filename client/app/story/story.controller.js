@@ -7,7 +7,7 @@
       this.$scope = $scope;
       this.$scope.message = 'Hello';
       this.$http.get('assets/images/story_tree.json').then(response => {
-        console.log(response)
+        console.log(response);
         this.$scope.storyPath = response.data;
       });
     }
