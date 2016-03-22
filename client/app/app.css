@@ -38,3 +38,8 @@
   padding: 0.2em 0;
 }
 
+#bandMates {
+  width: 7vw;
+  height: auto;
+  float: right
+}
