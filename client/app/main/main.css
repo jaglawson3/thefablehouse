@@ -25,3 +25,9 @@
 .navbar-text {
   margin-left: 15px;
 }
+
+#musiciansOfBremen {
+  background-color: red;
+  border-radius: 50%;
+  width: 19vh;
+}

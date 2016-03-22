@@ -1,9 +1,11 @@
 <div class="navbar navbar-default navbar-static-top" ng-controller="NavbarController">
+  <img id="bandMates" src="../assets/images/musicians-of-bremen-md.png">
   <div class="container">
+
     <div class="navbar-header">
+
       <button class="navbar-toggle" type="button" ng-click="nav.isCollapsed = !nav.isCollapsed">
         <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
@@ -25,5 +27,6 @@
         <li ng-show="nav.isLoggedIn()"><a ui-sref="logout">Logout</a></li>
       </ul>
     </div>
+
   </div>
 </div>
