@@ -1,20 +1,25 @@
 {
-  "name": "Introduction",
-  "src": "chapter1Modified.mp4",
-  "text": "In a land far away with purple skies and orange grass. A family of Scaries look for mommy. The big one is Big Scary, he is the dada. The short one is Lil Scary she is the daughter. They are out to find mama and gum berries! Oh! What is that we see?",
-  "currentQuestion": "Lil & Big Scary see something interesting! What do they see?!",
-  "currentLocation": "chapter1",
+  "currentLocation": " ",
+  "src": "/assets/images/chapter1Modified.mp4",
+  "text": " ",
+  "currentQuestion": " ",
+  "buttonLeft": "scope.currentPage[0][0].buttonLeft",
+  "buttonRight": "scope.currentPage[0][0].buttonRight",
+  0 "]["
+  0 "].buttonRight",
+  "optionLeft": {},
+  "optionRight": {},
   "0": {
     "buttonLeft": "Is it small and squeaky?",
     "buttonRight": "Is it big and growly?",
-    "src": "blahblah",
+    "src": "",
     "currentLocation": "chapter2",
     "optionRight": {
       "name": "Big thing",
       "text": "It is tall and grumbly, with scary eyes and giant hands! Lil Scary is scared, but Big Scary has a plan.",
       "video": "video3",
       "currentLocation": "chapter2A",
-      "optionRight": {
+      "OpenRight": {
         "name": "Friend or foe?",
         "video": "video4",
         "currentLocation": "chapter3A",
@@ -26,8 +31,7 @@
         "optionLeft": {
           "name": "Big Friend",
           "video": "video6",
-          "currentLocation": "chapter3AB",
-          "end": true
+          "currentLocation": "chapter3AB"
         }
       }
     },
@@ -39,12 +43,12 @@
         "currentQuestion:": "Friend or foe?",
         "video": "video8",
         "currentLocation": "chapter3B",
-        "optionRight": {
+        "0": {
           "name": "Small Foe",
           "video": "video9",
           "currentLocation": "chapter3BA"
         },
-        "optionLeft": {
+        "1": {
           "name": "Small Friend",
           "video": "video1optionRight",
           "currentLocation": "chapter3BB"
@@ -52,4 +56,12 @@
       }
     }
   }
+
 }
+};
+"name": "Introduction",
+"src": "../assets/images/chapter1Modified.mp4",
+"text": "In a land far away with purple skies and orange grass. A family of Scaries look for mommy. The big one is Big Scary, he is the dada. The short one is Lil Scary she is the daughter. They are out to find mama and gum berries! Oh! What is that we see?",
+"currentQuestion": "Lil & Big Scary see something interesting! What do they see?!",
+"currentLocation": "chapter1",
+"0": {}
