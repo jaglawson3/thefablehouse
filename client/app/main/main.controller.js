@@ -6,7 +6,7 @@ class MainController {
 
   constructor($http) {
     this.$http = $http;
-    this.awesomeThings = ["The Fable House"];
+    this.awesomeThings = [];
   }
 
   $onInit() {
