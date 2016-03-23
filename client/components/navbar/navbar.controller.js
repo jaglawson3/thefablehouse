@@ -5,7 +5,7 @@ class NavbarController {
       'title': 'Home',
       'state': 'main'
     },{
-      'title': 'Preview Story',
+      'title': 'Preview Tale',
       'state': 'story'
 
     }];
