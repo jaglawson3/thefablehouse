@@ -2,9 +2,7 @@
 
 (function() {
 
-class MainController {
-
-  constructor($http) {
+class MainController {onstructor($http) {
     this.$http = $http;
     this.awesomeThings = [];
   }

@@ -1,18 +1,39 @@
 {
   "name": "Introduction",
   "src": "chapter1Modified.mp4",
-  "text": "In a land far away with purple skies and orange grass. A family of Scaries look for mommy. The big one is Big Scary, he is the dada. The short one is Lil Scary she is the daughter. They are out to find mama and gum berries! Oh! What is that we see?",
-  "currentQuestion": "Lil & Big Scary see something interesting! What do they see?!",
+  "text": "Once upon a time in a land far away.
+  Under a purple sun, on a globe of orange clay.
+
+  A family of Scaries walking this way,
+  The run, the laugh, they hug, they play.
+
+  A big one and a small one, they stroll hand in hand.
+  Just like you and me, big hand and small hand.
+
+  The small one is Itty Bitty,
+  with her diaper and crazy hair.
+
+  The big one is Big Scary,
+  with his asymmetrical horns
+  and his jovial smile.
+
+  The stroll through the orange woods,
+  looking for mama.
+
+  She is out there somewhere,
+  and they must find her.",
   "currentLocation": "chapter1",
   "0": {
     "buttonLeft": "Is it small and squeaky?",
     "buttonRight": "Is it big and growly?",
+    "currentQuestion": "Lil & Big Scary see something interesting! What do they see?!",
+    "text": "Big and Lil walk and talk and think about things, they loo high and low to find gum berries!",
     "src": "blahblah",
     "currentLocation": "chapter2",
     "optionRight": {
       "name": "Big thing",
       "text": "It is tall and grumbly, with scary eyes and giant hands! Lil Scary is scared, but Big Scary has a plan.",
-      "video": "video3",
+      "src": "chapter2.mp4",
       "currentLocation": "chapter2A",
       "optionRight": {
         "name": "Friend or foe?",

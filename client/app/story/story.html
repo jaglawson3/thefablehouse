@@ -9,14 +9,11 @@
   </video> -->
   <video ng-src="{{videoUrl(currentPage.src)}}" controls autoplay="true" width="720" height="480"></video>
   <button ng-show="Introduction" ng-click="isItIntroduction()">Next Chapter</button>
-  <h2>{{ch1Question}}</h2>
+  <h2>{{currentPage.currentQuestion}}</h2>
   <button ng-click="optionLeft()" ng-hide="Introduction">{{currentPage.buttonLeft}}</button>
   <button ng-click="optionRight()" ng-hide="Introduction">{{currentPage.buttonRight}}</button>
   <!-- <button ng-click="{{option1}}" class="button1">Something small! Let's look closer...</button> -->
   <p>
     TEST
   </p>
-  <div>
-    
-  </div>
 </div>
