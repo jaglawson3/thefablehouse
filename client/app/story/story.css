@@ -1,3 +1,30 @@
-.chapter1 {
-  width: 80vw;
+
+.video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+}
+
+.storyText {
+  color: white;
+  background-color: hsla(170, 50%, 45%, .8);
+  font-size: 1.5vw;
+  width: 50vw;
+  margin-left: 5vw;
+  border-radius: 7px;
+}
+
+.nextButton, .leftButton, .rightButton {
+  border-radius: 10%
 }
