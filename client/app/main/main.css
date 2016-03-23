@@ -4,7 +4,8 @@
 
 #banner {
   border-bottom: none;
-  margin-top: -20px;
+  margin-top: 40vh;
+  background-color: inherit;
 }
 
 #banner h1 {
@@ -16,10 +17,9 @@
 .hero-unit {
   position: relative;
   padding: 30px 15px;
-  color: #F5F5F5;
+  color: #fff;
   text-align: center;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  background: #4393B9;
 }
 
 .navbar-text {
@@ -30,4 +30,25 @@
   background-color: red;
   border-radius: 50%;
   width: 19vh;
+}
+
+.castleIcon {
+  fill: #fff;
+}
+
+.introScene {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
 }

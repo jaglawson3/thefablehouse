@@ -3,16 +3,9 @@
 (function() {
 
 class MainController {
-
   constructor($http) {
     this.$http = $http;
-    this.awesomeThings = ["The Fable House"];
-  }
-
-  $onInit() {
-    this.$http.get('/api/things').then(response => {
-      this.awesomeThings = response.data;
-    });
+    this.awesomeThings = [];
   }
 
   addThing() {
@@ -25,12 +18,23 @@ class MainController {
   deleteThing(thing) {
     this.$http.delete('/api/things/' + thing._id);
   }
+
 }
 
 angular.module('theFableHouseApp')
   .component('main', {
     templateUrl: 'app/main/main.html',
     controller: MainController
+  })
+  .directive('video', function () {
+    return {
+      restrict: 'E',
+      link: function(scope, element) {
+        scope.$on('$destroy', function() {
+          element.prop('src', '');
+        });
+      }
+    };
   });
 
 })();

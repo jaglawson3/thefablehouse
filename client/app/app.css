@@ -39,7 +39,13 @@
 }
 
 #bandMates {
-  width: 7vw;
+  width: 2vw;
   height: auto;
   float: right
+}
+
+
+.navbar {
+  color: black;
+  background: url("assets/images/introScene.mp4")
 }
