@@ -651,6 +651,7 @@ module.exports = function (grunt) {
       'injector',
       'wiredep:client',
       'postcss',
+      'cssmin',
       'express:dev',
       'wait',
       'open',
