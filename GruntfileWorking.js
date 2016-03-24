@@ -1,4 +1,4 @@
-// Generated on 2016-03-23 using generator-angular-fullstack 3.4.2
+// Generated on 2016-03-21 using generator-angular-fullstack 3.4.2
 'use strict';
 
 module.exports = function (grunt) {
@@ -91,7 +91,7 @@ module.exports = function (grunt) {
         files: [
           '{.tmp,<%= yeoman.client %>}/{app,components}/**/*.{css,html}',
           '{.tmp,<%= yeoman.client %>}/{app,components}/**/!(*.spec|*.mock).js',
-          '<%= yeoman.client %>/assets/images/{,*//*}*.{png,jpg,jpeg,gif,webp}'
+          '<%= yeoman.client %>/assets/images/{,*//*}*.{png,jpg,jpeg,gif,webp,svg,mp4,gif,json}'
         ],
         options: {
           livereload: true
@@ -239,7 +239,7 @@ module.exports = function (grunt) {
       dist: {
         src: [
           '<%= yeoman.dist %>/<%= yeoman.client %>/!(bower_components){,*/}*.{js,css}',
-          '<%= yeoman.dist %>/<%= yeoman.client %>/assets/images/{,*/}*.{jpg,jpeg,gif,webp}'
+          '<%= yeoman.dist %>/<%= yeoman.client %>/assets/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg,mp4,json}'
         ]
       }
     },
@@ -262,15 +262,16 @@ module.exports = function (grunt) {
       options: {
         assetsDirs: [
           '<%= yeoman.dist %>/<%= yeoman.client %>',
-          '<%= yeoman.dist %>/<%= yeoman.client %>/assets/images'
+          '<%= yeoman.dist %>/<%= yeoman.client %>/assets/images',
+          '<%= yeoman.dist %>/<%= yeoman.client %>/assets/json'
         ],
         // This is so we update image references in our ng-templates
         patterns: {
           css: [
-            [/(assets\/images\/.*?\.(?:gif|jpeg|jpg|png|webp))/gm, 'Update the CSS to reference our revved images']
+            [/(assets\/images\/.*?\.(?:gif|jpeg|jpg|png|webp|svg|mp4|gif|json))/gm, 'Update the CSS to reference our revved images']
           ],
           js: [
-            [/(assets\/images\/.*?\.(?:gif|jpeg|jpg|png|webp))/gm, 'Update the JS to reference our revved images']
+            [/(assets\/images\/.*?\.(?:gif|jpeg|jpg|png|webp|svg|mp4|gif|json))/gm, 'Update the JS to reference our revved images']
           ]
         }
       }
@@ -282,7 +283,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.client %>/assets/images',
-          src: '{,*/}*.{png,jpg,jpeg,gif}',
+          src: '{,*/}*.{png,jpg,jpeg,gif,svg,mp4,json}',
           dest: '<%= yeoman.dist %>/<%= yeoman.client %>/assets/images'
         }]
       }
@@ -364,10 +365,10 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.client %>',
           dest: '<%= yeoman.dist %>/<%= yeoman.client %>',
           src: [
-            '*.{ico,png,txt,gif,svg,mp4,json}',
+            '*.{ico,png,txt, gif, mp4, json}',
             '.htaccess',
             'bower_components/**/*',
-            'assets/images/{,*/}*.{webp,svg,mp4,gif,json}',
+            'assets/images/{,*/}*.{webp, mp4, gif, json}',
             'assets/fonts/**/*',
             'index.html'
           ]
@@ -650,6 +651,7 @@ module.exports = function (grunt) {
       'injector',
       'wiredep:client',
       'postcss',
+      'cssmin',
       'express:dev',
       'wait',
       'open',
@@ -754,6 +756,24 @@ module.exports = function (grunt) {
     ]);
   });
 
+  // grunt.registerTask('build', [
+  //   'clean:dist',
+  //   'concurrent:pre',
+  //   'concurrent:dist',
+  //   'injector',
+  //   'wiredep:client',
+  //   'useminPrepare',
+  //   'postcss',
+  //   'ngtemplates',
+  //   'concat',
+  //   'ngAnnotate',
+  //   'copy:dist',
+  //   'babel:server',
+  //   'cdnify',
+  //   'filerev',
+  //   'usemin'
+  // ]);
+
   grunt.registerTask('build', [
     'clean:dist',
     'concurrent:pre',
@@ -773,6 +793,7 @@ module.exports = function (grunt) {
     'filerev',
     'usemin'
   ]);
+
 
   grunt.registerTask('default', [
     'newer:jshint',

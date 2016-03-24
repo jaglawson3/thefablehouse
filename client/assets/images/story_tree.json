@@ -28,7 +28,7 @@
         "buttonRight": "Share your gum berries with Twerp, he seems hungry.",
         "optionRight": {
           "name": "Big Foe",
-          "svg": "svg5",
+          "src": "chapter2a.mp4",
           "currentLocation": "chapter3AA"
         },
         "optionLeft": {

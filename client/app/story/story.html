@@ -1,11 +1,10 @@
 <div>
-  This is the preview story. Enjoy a portion of it for free
   <p class="storyText">
     {{currentPage.text}}
   </p>
   <video class="video" ng-src="{{videoUrl(currentPage.src)}}" controls autoplay="true" width="720" height="480"></video>
   <button class="nextButton" ng-show="Introduction" ng-click="isItIntroduction()">Next Chapter</button>
-  <h2>{{currentPage.currentQuestion}}</h2>
+  <h2 class="currentQuestion">{{currentPage.currentQuestion}}</h2>
   <button class="leftButton" ng-click="optionLeft()" ng-hide="Introduction">{{currentPage.buttonLeft}}</button>
   <button class="rightButton" ng-click="optionRight()" ng-hide="Introduction">{{currentPage.buttonRight}}</button>
 </div>

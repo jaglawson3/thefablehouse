@@ -39,13 +39,32 @@
 }
 
 #bandMates {
-  width: 2vw;
+  width: 6vh;
   height: auto;
-  float: right
+  float: right;
 }
 
+.navbar-default .navbar-brand {
+  color: white;
+  text-shadow: 2px 2px black;
+}
 
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  text-shadow: 1px 1px black;
+  background-color: transparent;
+  border-bottom: 3px solid blue;
+}
 .navbar {
   color: black;
   background: url("assets/images/introScene.mp4")
+}
+
+p.navbar-text.ng-binding {
+  color: white;
+  text-shadow: 1px 1px black;
 }
