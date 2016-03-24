@@ -16,25 +16,29 @@
       "currentQuestion": "Is it a friend or is it a foe? What should Big Scary and Lil Scary do?",
       "text": "That thing is so big and so fierce looking. Those teeth are so fangy!\nThose eyes are so scary, that smell is so stinky!",
       "buttonLeft": "Run for your lives!",
-      "buttonRight": "Introduce yourself with a smile.",
+      "buttonRight": "Introduce yourself and wave hello.",
       "name": "Big Thing",
       "optionRight": {
-        "src": " ",
+        "src": "chapter3a.mp4",
         "currentLocation": "chapter3A",
-        "currentQuestion": " ",
+        "currentQuestion": "Is that a smile?",
         "name": "Big Friend",
-        "text": "Hi! How are you! We are two monsters,\nBig and small. A papa and baby,\nWhat is your name, you who are so very tall?\n\nMy name is Twerp, and I am going to work.\nI take care of Queen Power Face's squid birds and air whales.\nI sure am hungry.",
+        "text": "Hi! How are you! We are two monsters,\nBig and small.\nWhat is your name, you who are so very tall?\n\nMy name is Twerp, and I am going to work.\n\nI sure am hungry.",
         "buttonLeft": "Keep your gum berries, Twerp probably eats only meat! Run!",
         "buttonRight": "Share your gum berries with Twerp, he seems hungry.",
         "optionRight": {
           "name": "Big Foe",
+          "text": "The troll caught you! Ahhhhhhhhh!",
+          "buttonleft":"The",
+          "buttonRight": "End",
+          "end": true,
           "src": "chapter2a.mp4",
           "currentLocation": "chapter3AA"
         },
         "optionLeft": {
           "name": "Big Friend",
-          "svg": "svg6",
-          "text": "Say Hi! How are you! We are two monsters,\nBig and small. A papa and baby,\nWhat is your name, you who are so very tall?",
+          "src": "chapter3a.mp4",
+          "text": "Say Hi! How are you! We are two monsters,\nBig and small.\nWhat is your name, you who are so very tall?",
           "currentLocation": "chapter3AB"
         }
       }
@@ -42,7 +46,13 @@
     "optionLeft": {
       "name": "Small thing",
       "svg": "svg7",
-      "currentLocation": "chapter2B",
+      "name": "Big Foe",
+      "text": "The troll caught you! Ahhhhhhhhh!",
+      "buttonleft":"The",
+      "buttonRight": "End",
+      "end": true,
+      "src": "chapter2a.mp4",
+      "currentLocation": "chapter3AA",
       "optionRight": {
         "name": "Friend or foe?",
         "svg": "svg8",
